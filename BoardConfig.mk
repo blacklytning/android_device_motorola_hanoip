@@ -41,7 +41,8 @@ TARGET_COPY_OUT_SYSTEM_EXT := system_ext
 # A/B
 AB_OTA_PARTITIONS += \
 		system_ext \
-		vendor_boot
+		vendor_boot \
+		vbmeta_system
 
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
