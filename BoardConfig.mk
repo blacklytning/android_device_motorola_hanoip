@@ -29,6 +29,7 @@ DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
 TARGET_KERNEL_CONFIG := hanoip_defconfig
+TARGET_KERNEL_CLANG_VERSION := r428724
 BOARD_KERNEL_CMDLINE += androidboot.selinux=permissive
 BOARD_BOOTIMG_HEADER_VERSION := 3
 
