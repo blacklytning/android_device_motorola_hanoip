@@ -50,6 +50,9 @@ AB_OTA_PARTITIONS += \
 # Recovery
 BOARD_USES_RECOVERY_AS_BOOT := true
 
+# FCM
+DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE += $(DEVICE_PATH)/framework_compatibility_matrix.xml
+
 # SELinux
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
