@@ -18,6 +18,9 @@
 
 DEVICE_PATH := device/motorola/hanoip
 
+# Fixes
+BUILD_BROKEN_VENDOR_PROPERTY_NAMESPACE := true
+
 # Board Info
 TARGET_BOARD_INFO_FILE := $(DEVICE_PATH)/board-info.txt
 
